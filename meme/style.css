@@ -1,0 +1,13 @@
+html {
+    background-color: rgb(2, 24, 32);
+}
+div {
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+img {
+    border: 5px solid black;
+}
