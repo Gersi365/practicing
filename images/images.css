@@ -6,3 +6,10 @@ h2 {
     text-align: center;
     color: blue;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+  }
