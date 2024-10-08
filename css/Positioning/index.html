@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        span {
+            color: blue;
+        }
+        .blue {
+            background-color: blue;
+            height: 300px;
+            width: 500px;
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+        .red {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+            top: 150px;
+            left: 250px;
+        }
+        .text {
+            position: absolute;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1><span>CSS</span> Positioning</h1>
+    <hr/>
+    <div class="blue">
+        <div class="red"></div>
+    <div class="text">
+        <code>
+            body <br/>
+                h1 <span>CSS</span> Positioning h1 <br/>
+                hr <br/>
+                div class="blue" <br/>
+                    div class="red" <br/>
+                div class="text" <br/>
+            body <br/>
+            style <br/>
+                h1 {
+                    text-align: center;
+                    color: red;
+                } <br>
+                span {
+                    color: blue;
+                } <br/>
+                .blue {
+                    background-color: blue;
+                    height: 300px;
+                    width: 500px;
+                    position: relative;
+                    top: 200px;
+                    left: 200px;
+                } <br/>
+                .red {
+                    background-color: red;
+                    height: 200px;
+                    width: 200px;
+                    position: absolute;
+                    border-radius: 50%;
+                    top: 150px;
+                    left: 250px;
+                } <br/>
+            style <br/>
+            <br/>
+            <br/>
+        </code>
+    </div>
+</body>
+</html>
